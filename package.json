@@ -9,6 +9,12 @@
     "typecheck": "tsc"
   },
   "dependencies": {
+    "@emotion/cache": "^11.11.0",
+    "@emotion/react": "^11.11.1",
+    "@emotion/server": "^11.11.0",
+    "@emotion/styled": "^11.11.0",
+    "@mui/lab": "^5.0.0-alpha.135",
+    "@mui/material": "^5.13.7",
     "@remix-run/css-bundle": "^1.18.1",
     "@remix-run/express": "^1.18.1",
     "@remix-run/node": "^1.18.1",

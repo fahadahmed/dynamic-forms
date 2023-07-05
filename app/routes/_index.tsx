@@ -1,4 +1,6 @@
 import type { V2_MetaFunction } from "@remix-run/node";
+import LinkedButton from "~/mui/LinkedButton";
+import HorizontalLinearStepper from "~/mui/Stepper";
 
 export const meta: V2_MetaFunction = () => {
   return [
@@ -18,6 +20,8 @@ export default function Index() {
         <li>Create a remix validated form</li>
         <li>Add Zod validation</li>
       </ul>
+      <LinkedButton to={"/join"} variant="contained">Sign up</LinkedButton>
+      <HorizontalLinearStepper />
     </div>
   );
 }
